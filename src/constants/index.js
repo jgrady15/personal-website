@@ -40,22 +40,29 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Software Developer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Fullstack Developer",
+    icon: mobile,
+  },
+  {
+    title: "Music Producer",
     icon: creator,
   },
 ];
+
+// const certifications = [
+//   {
+//     name: "AWS SAA",
+//     icon: AWS_SAA,
+//   },
+// ];
 
 const technologies = [
   {
@@ -116,16 +123,17 @@ const experiences = [
     // "#383E56" for inactive
     {
       // "#E6DEDD" for active
-      title: "System Administrator Intern",
+      title: "IT Support Specialist Intern",
       company_name: "Briviant",
       icon: briviant,
       iconBg: "#E6DEDD",
       date: "Oct 2021 - Jun 2022",
       points: [
-        "Managed the deployment and system/network configuration of Mac Mini's for company data center",
-        "Troubleshooted ticketed SDK/API issues via our cloud platform.",
-        "Contributed in creating new and maintaining past software and system documentation.",
-        
+        "Worked alongside Helpdesk team to triage, diagnose, and resolve end-user issues on physical and virtual macOS machines",
+        "Conducted server troubleshooting for RDP Protocol connection issues for end-user side, and resolving OS level restriction issues affecting end-user experience",
+        "Developed Shell scripts in BASH automating processes like internal hard disk verification for critical system updates and streamlining user verification process for our user migration project raising overall team efficiency by 30%",
+        "Spearheaded new system and network documentation outlining best practices for configuration and deployment of new server builds for our in-house data center",
+        "Performed Acceptance Testing for system and network configuration of macOS and VMWare ESXi server builds prior to deployment adhering to company standards and optimal functionality",
       ],
     },
   {
@@ -144,41 +152,24 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Pair Smart",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A client-side app powered by ChatGPT that pulls stock information from Yahoo! Finance and performs complex quantitative algorithms in an attempt to find suitable pairs to perform pairs trading strategies.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
+        name: "c++",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "chatgpt",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "chatgpt",
         color: "pink-text-gradient",
       },
     ],
@@ -186,25 +177,75 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Personal Portfolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The code repo behind this website, I coded this website to showcase my personal skills, interests, and projects for potential employment.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "threejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "aws",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/jgrady15/fruit_shop",
+  },
+  {
+    name: "Fruit Shop",
+    description:
+      "A full-stack web-based platform that lets users browse through a catalog of the freshest fruits, lets them add to their own customized cart, and allows secure real-time payment verification through Stripe.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sanity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "chakra",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/jgrady15/fruit_shop",
+  },
+  {
+    name: "Pacman Portals",
+    description:
+      "A client-side application that replicates the Pacman game and adds portals for you to use. You have an orange portal and a blue portal that you can aim at walls, and it lets you travel between the two points. Highest score is saved.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "pygame",
+        color: "green-text-gradient",
+      },
+      {
+        name: "git",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/eddierayo-156/CPSC-386-Pacman",
   },
 ];
 
