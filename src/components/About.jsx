@@ -33,13 +33,16 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        cock.
+        I'm a software developer with experience in Python, Javascript, C++,
+        and proficient with frameworks like React, Next.js, Sanity, and Stripe.
+        I am a quick learner, and have experience building client-side and 
+        server-side applications that can tackle real-world problems. 
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      {/* <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (<ServiceCard key={service.title} index={index} {...service} />))}
 
-      </div>
+      </div> */}
     </>
   )
 }

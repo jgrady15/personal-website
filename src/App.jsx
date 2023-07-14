@@ -6,6 +6,7 @@ import {
   Experience,
   Hero,
   Navbar,
+  Certifications,
   Tech,
   Works,
   StarsCanvas,
@@ -21,6 +22,7 @@ function App() {
         </div>
         <About />
         <Experience />
+        <Certifications />
         <Tech />
         <Works />
         <div className="relative z-0">
